@@ -1,8 +1,20 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Image from "./components/Image";
+import Services from "./components/Services";
+import Team from "./components/Team";
+
 const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <section>
+      <Hero />
+      <About />
+      <Services />
+      <Image />
+      <Team />
+      <Contact />
+    </section>
   );
 };
 
