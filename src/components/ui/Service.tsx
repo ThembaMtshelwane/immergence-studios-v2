@@ -1,6 +1,10 @@
 const Service = () => {
   return (
-    <div className="bg-blue-400 grid grid-rows-[40%_20%_40%] h-[250px] sm:grid-rows-1 sm:grid-cols-3">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      className="bg-blue-400 grid grid-rows-[40%_20%_40%] h-[250px] sm:grid-rows-1 sm:grid-cols-3"
+    >
       <div className="col-span-full self-center sm:col-span-1 sm:px-4 md:justify-self-center">
         Name of service
       </div>
