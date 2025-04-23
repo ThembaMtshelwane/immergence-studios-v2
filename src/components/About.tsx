@@ -5,10 +5,10 @@ const About = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis
         dignissimos minima, beatae non quae?
       </h2>
-      <div className="bg-amber-300 size-36 sm:size-60 border justify-self-center self-center"></div>
+      <div className="bg-amber-300 size-36 sm:size-60 border justify-self-end self-center"></div>
       <div className="bg-amber-300 size-36 sm:size-60 border justify-self-center self-end"></div>
       <div className="bg-amber-300 size-36 sm:size-60 border justify-self-center"></div>
-      <div className="bg-amber-300 size-36 sm:size-60 border justify-self-center self-center"></div>
+      <div className="bg-amber-300 size-36 sm:size-60 border  self-center"></div>
     </div>
   );
 };
