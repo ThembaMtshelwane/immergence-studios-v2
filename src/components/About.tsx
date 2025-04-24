@@ -1,3 +1,5 @@
+import { animation_duration } from "../constants";
+
 const About = () => {
   return (
     <div className="bg-yellow-50 h-[150vh] grid grid-cols-2 grid-rows-[30%_40%_30%] sm:grid-rows-[40%_20%_40%]  text-justify relative">
@@ -8,22 +10,22 @@ const About = () => {
       <div
         className="bg-amber-300 size-36 sm:size-60 border justify-self-end self-center"
         data-aos="zoom-in-up"
-        data-aos-duration="2000"
+        data-aos-duration={animation_duration}
       ></div>
       <div
         className="bg-amber-300 size-36 sm:size-60 border justify-self-center self-end"
         data-aos="zoom-in-up"
-        data-aos-duration="2000"
+        data-aos-duration={animation_duration}
       ></div>
       <div
         className="bg-amber-300 size-36 sm:size-60 border justify-self-center"
         data-aos="zoom-in-up"
-        data-aos-duration="2000"
+        data-aos-duration={animation_duration}
       ></div>
       <div
         className="bg-amber-300 size-36 sm:size-60 border  self-center"
         data-aos="zoom-in-up"
-        data-aos-duration="2000"
+        data-aos-duration={animation_duration}
       ></div>
     </div>
   );
