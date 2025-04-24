@@ -7,7 +7,7 @@ import Team from "./components/Team";
 
 const App = () => {
   return (
-    <section>
+    <section className="font-tagesschrift">
       <Hero />
       <About />
       <Services />
