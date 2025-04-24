@@ -2,7 +2,7 @@ import { animation_duration } from "../constants";
 
 const Team = () => {
   return (
-    <div className="bg-red-400 h-[400vh] py-10 relative ">
+    <div className="bg-red-400 h-[400vh] py-10 relative overflow-hidden">
       <div className="sticky top-0  h-screen flex items-center justify-center">
         <h2 className=" text-yellow-400 text-center text-4xl sm:text-6xl md:text-8xl font-extrabold ">
           MEET THE TEAM
