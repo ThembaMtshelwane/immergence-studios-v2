@@ -2,7 +2,7 @@ import Service from "./ui/Service";
 
 const Services = () => {
   return (
-    <div className="bg-blue-600 min-h-screen py-4">
+    <div className="min-h-screen py-4">
       <h2 className="text-6xl text-center p-2 my-4 font-extrabold sm:text-start sm:text-8xl sm:my-0">
         SERVICES
       </h2>

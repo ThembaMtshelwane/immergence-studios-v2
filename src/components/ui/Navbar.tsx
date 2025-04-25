@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="hidden sm:flex justify-around sm:absolute w-[70%] sm:right-0 border md:left-0 text-2xl md:w-full relative z-10 bg-red-200 ">
+    <nav className="hidden sm:flex justify-around sm:absolute w-[70%] sm:right-0 md:left-0 text-2xl md:w-full relative z-10 ">
       <div>Home</div>
       <div>About</div>
       <div>Services</div>
