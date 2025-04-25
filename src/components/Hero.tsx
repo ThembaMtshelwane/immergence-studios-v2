@@ -9,7 +9,7 @@ const Hero = () => {
           src="logo.svg"
           alt=""
         />
-        <nav className="hidden sm:flex justify-around sm:absolute w-[70%] sm:right-0 border md:left-0 text-2xl md:w-full md:fixed z-50 bg-red-200 ">
+        <nav className="hidden sm:flex justify-around sm:absolute w-[70%] sm:right-0 border md:left-0 text-2xl md:w-full relative z-10 bg-red-200 ">
           <div>Home</div>
           <div>About</div>
           <div>Services</div>
