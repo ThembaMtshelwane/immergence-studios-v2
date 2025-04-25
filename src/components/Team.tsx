@@ -10,33 +10,33 @@ const Team = () => {
           </h2>
         </div>
       </div>
-      <div className="overflow-hidden grid grid-cols-2 gap-28 flex-col border w-full items-center relative p-5">
+      <div className="overflow-hidden grid sm:grid-cols-2 gap-28 flex-col border w-full justify-center items-center relative p-5">
         <div
           data-aos="fade-right"
           data-aos-anchor-placement="center"
           data-aos-duration={animation_duration}
-          className="border h-100 w-full bg-black row-[1/2] col-[1/2]"
+          className="border h-120 w-[250px] max-w-[480px] sm:justify-self-center sm:w-full bg-black row-[1/2] sm:col-[1/2]"
         ></div>
 
         <div
           data-aos="fade-up-left"
           data-aos-anchor-placement="center"
           data-aos-duration={animation_duration}
-          className="border h-100 w-full bg-black row-[2/3] col-[2/3]"
+          className="border h-120 w-[250px] max-w-[480px] sm:justify-self-center sm:w-full bg-black row-[2/3] sm:col-[2/3]"
         ></div>
 
         <div
           data-aos="fade-right"
           data-aos-anchor-placement="center"
           data-aos-duration={animation_duration}
-          className="border h-100 w-full bg-black row-[3/4] col-[1/2]"
+          className="border h-120 w-[250px] max-w-[480px] sm:justify-self-center sm:w-full bg-black row-[3/4] sm:col-[1/2]"
         ></div>
 
         <div
           data-aos="fade-up-left"
           data-aos-anchor-placement="center"
           data-aos-duration={animation_duration}
-          className="border h-100 w-full bg-black  row-[4/5] col-[2/3]"
+          className="border h-120 w-[250px] max-w-[480px] sm:justify-self-center sm:w-full bg-black  row-[4/5] sm:col-[2/3]"
         ></div>
       </div>
     </div>
