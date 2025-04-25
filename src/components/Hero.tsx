@@ -1,4 +1,5 @@
 import InfiiteCarousel from "./ui/InfiiteCarousel";
+import Navbar from "./ui/Navbar";
 
 const Hero = () => {
   return (
@@ -9,13 +10,7 @@ const Hero = () => {
           src="logo.svg"
           alt=""
         />
-        <nav className="hidden sm:flex justify-around sm:absolute w-[70%] sm:right-0 border md:left-0 text-2xl md:w-full relative z-10 bg-red-200 ">
-          <div>Home</div>
-          <div>About</div>
-          <div>Services</div>
-          <div>Team</div>
-          <div>Contact</div>
-        </nav>
+        <Navbar />
       </div>
       <div className="bg-red-400 text-7xl sm:text-9xl md:text-7xl lg:text-9xl flex overflow-hidden items-center justify-center">
         <InfiiteCarousel />
