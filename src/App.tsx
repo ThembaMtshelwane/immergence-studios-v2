@@ -7,7 +7,7 @@ import Team from "./components/Team";
 
 const App = () => {
   return (
-    <section className="font-tagesschrift">
+    <section className="font-tagesschrift bg-background text-[#212D40]">
       <Hero />
       <About />
       <Services />

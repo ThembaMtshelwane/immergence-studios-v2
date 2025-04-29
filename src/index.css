@@ -3,6 +3,12 @@
 
 @theme {
   --font-tagesschrift: "Tagesschrift", system-ui, "sans-serif";
+  --color-background: #ff2404; /* Approximately "
+  #A13F00" */
+  --color-secondary: oklch(19.5% 4% 261.573%); /* Approximately "
+  #312F33" */
+  --color-accent: oklch(29.5% 9.75% 259.389%); /* Approximately "
+  #424954" */
 }
 
 @keyframes slide {

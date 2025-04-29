@@ -8,22 +8,22 @@ const About = () => {
         dignissimos minima, beatae non quae?
       </h2>
       <div
-        className="bg-amber-300 size-36 sm:size-60 border justify-self-end self-center"
+        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50  size-36 sm:size-60 border justify-self-end self-center"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
       ></div>
       <div
-        className="bg-amber-300 size-36 sm:size-60 border justify-self-center self-end"
+        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border justify-self-center self-end"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
       ></div>
       <div
-        className="bg-amber-300 size-36 sm:size-60 border justify-self-center"
+        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border justify-self-center"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
       ></div>
       <div
-        className="bg-amber-300 size-36 sm:size-60 border  self-center"
+        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border  self-center"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
       ></div>

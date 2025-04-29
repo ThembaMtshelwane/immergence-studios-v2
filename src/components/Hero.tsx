@@ -4,9 +4,9 @@ import Navbar from "./ui/Navbar";
 const Hero = () => {
   return (
     <div className=" h-screen grid grid-rows-[10%_40%_50%] md:grid-rows-[40%_60%] md:grid-cols-2">
-      <div className=" flex relative">
+      <div className=" flex relative ">
         <img
-          className="h-full w-[30%] md:w-full object-cover object-center"
+          className="h-full w-[30%] md:w-full object-cover object-center bg-[#FC2804]"
           src="logo.svg"
           alt=""
         />
