@@ -7,10 +7,10 @@ const Services = () => {
         SERVICES
       </h2>
       <div className="border flex flex-col gap-4">
-        <Service />
-        <Service />
-        <Service />
-        <Service />
+        <Service image={"7.mp4"} name={""} description={""} />
+        <Service image={"6.mp4"} name={""} description={""} />
+        <Service image={"8.mp4"} name={""} description={""} />
+        <Service image={""} name={""} description={""} />
       </div>
     </div>
   );

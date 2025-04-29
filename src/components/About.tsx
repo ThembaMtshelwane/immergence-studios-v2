@@ -7,26 +7,50 @@ const About = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facilis
         dignissimos minima, beatae non quae?
       </h2>
-      <div
-        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50  size-36 sm:size-60 border justify-self-end self-center"
+      <video
+        src="2.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+        className="w-full h-full object-cover object-center bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50  size-36 sm:size-60 justify-self-end self-center"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
-      ></div>
-      <div
-        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border justify-self-center self-end"
+      />
+      <video
+        src="1.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+        className="w-full h-full object-cover object-center bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border justify-self-center self-end"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
-      ></div>
-      <div
-        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border justify-self-center"
+      />
+      <video
+        src="3.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+        className="w-full h-full object-cover object-center bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border justify-self-center"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
-      ></div>
-      <div
-        className="bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border  self-center"
+      />
+      <video
+        src="4.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+        className="w-full h-full object-cover object-center bg-[#FC2804] shadow-lg shadow-[#FC2804]-500/50 size-36 sm:size-60 border  self-center"
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
-      ></div>
+      />
     </div>
   );
 };

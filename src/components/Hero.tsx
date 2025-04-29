@@ -15,7 +15,26 @@ const Hero = () => {
       <div className=" text-7xl sm:text-9xl md:text-7xl lg:text-9xl flex overflow-hidden items-center justify-center">
         <InfiiteCarousel />
       </div>
-      <div className="border col-span-full">Video</div>
+      <div className="border col-span-full flex">
+        <video
+          src="hero.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-hidden="true"
+          className="h-full w-full object-center object-cover"
+        />
+        <video
+          src="hero.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-hidden="true"
+          className="h-full w-full object-center object-cover"
+        />
+      </div>
     </div>
   );
 };
