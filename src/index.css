@@ -5,6 +5,7 @@
   --font-tagesschrift: "Tagesschrift", system-ui, "sans-serif";
   --color-background: #11151c;
   --color-secondary: #58616f;
+  ---color-accent: #fc2804;
 }
 
 @keyframes slide {

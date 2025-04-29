@@ -1,5 +1,3 @@
-import Navbar from "./ui/Navbar";
-
 const Contact = () => {
   return (
     <div className="border h-screen grid grid-rows-4 p-4 md:grid-cols-2 lg:grid-cols-3">
@@ -18,9 +16,8 @@ const Contact = () => {
         <p>Lorem ipsum dolor sit.</p>
       </div>
       <div className="relative col-span-full md:row-[3/5] lg:col-[2/3] border">
-        <Navbar />
         <img
-          className="h-full w-full object-cover object-center bg-amber-500 "
+          className=" h-full w-full object-cover object-center bg-[#FC2804] "
           src="logo.svg"
           alt=""
         />
