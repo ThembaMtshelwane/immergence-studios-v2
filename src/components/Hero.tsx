@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex relative sm:flex-row-reverse sm:justify-between md:flex-col">
         <Navbar />
         <img
-          className="md:h-[80%] w-[30%] h-full md:w-full object-cover object-center bg-[#FC2804]"
+          className="md:h-[90%] drop-shadow-glow w-[30%] h-full md:w-full object-cover object-center bg-[#FC2804] "
           src="logo.svg"
           alt=""
         />
@@ -15,7 +15,7 @@ const Hero = () => {
       <div className=" text-7xl sm:text-9xl md:text-7xl lg:text-9xl flex overflow-hidden items-center justify-center">
         <InfiiteCarousel />
       </div>
-      <div className="border flex lg:col-span-full">
+      <div className=" drop-shadow-glow flex col-span-full">
         <video
           src="hero.mp4"
           autoPlay
@@ -26,7 +26,7 @@ const Hero = () => {
           className="w-full object-center object-cover "
         />
         <video
-          src="hero.mp4"
+          src="hero2.mp4"
           autoPlay
           loop
           muted

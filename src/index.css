@@ -5,7 +5,9 @@
   --font-tagesschrift: "Tagesschrift", system-ui, "sans-serif";
   --color-background: #11151c;
   --color-secondary: #58616f;
-  ---color-accent: #fc2804;
+  ---color-tertiary: rgba(252, 40, 4, 0.25); /*#fc2804 */
+
+  --drop-shadow-glow: 0px 0px 50px rgba(252, 40, 4, 0.25);
 }
 
 @keyframes slide {

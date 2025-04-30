@@ -2,10 +2,10 @@ import { GiStarShuriken } from "react-icons/gi";
 
 const InfiiteCarousel = () => {
   return (
-    <div className="carousel gap-8 ">
+    <div className="carousel gap-8  drop-shadow-glow">
       <div className="group flex gap-12 items-center">
         <GiStarShuriken />
-        <div className="flex flex-col md:flex-row md:gap-8 items-center justify-center">
+        <div className="flex flex-col md:flex-row md:gap-8 items-center justify-center ">
           <span>IMMERGENCE </span> <span>STUDIOS</span>{" "}
         </div>
         <GiStarShuriken />
