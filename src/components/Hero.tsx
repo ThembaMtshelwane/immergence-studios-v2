@@ -15,7 +15,7 @@ const Hero = () => {
       <div className=" text-7xl sm:text-9xl md:text-7xl lg:text-9xl flex overflow-hidden items-center justify-center">
         <InfiiteCarousel />
       </div>
-      <div className="border col-span-full flex">
+      <div className="border flex">
         <video
           src="hero.mp4"
           autoPlay
@@ -23,7 +23,7 @@ const Hero = () => {
           muted
           playsInline
           aria-hidden="true"
-          className="h-full w-full object-center object-cover"
+          className="w-full object-center object-cover"
         />
         <video
           src="hero.mp4"
@@ -32,7 +32,7 @@ const Hero = () => {
           muted
           playsInline
           aria-hidden="true"
-          className="h-full w-full object-center object-cover"
+          className="hidden md:flex h-full object-center object-cover"
         />
       </div>
     </div>

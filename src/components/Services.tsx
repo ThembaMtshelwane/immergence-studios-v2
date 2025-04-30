@@ -7,10 +7,34 @@ const Services = () => {
         SERVICES
       </h2>
       <div className="border flex flex-col gap-4">
-        <Service image={"7.mp4"} name={""} description={""} />
-        <Service image={"6.mp4"} name={""} description={""} />
-        <Service image={"8.mp4"} name={""} description={""} />
-        <Service image={""} name={""} description={""} />
+        <Service
+          image={"7.mp4"}
+          name={"Narrative Animation"}
+          description={
+            "Full-length and short-form animated stories that blend character, emotion, and storytelling craft across various genres."
+          }
+        />
+        <Service
+          image={"6.mp4"}
+          name={"Music Video Animation"}
+          description={
+            "Eye-catching visuals that move to the rhythm — from abstract sequences to character-driven narratives, designed for musicians and labels."
+          }
+        />
+        <Service
+          image={"8.mp4"}
+          name={"Educational Videos"}
+          description={
+            "Simplifying complex topics through animation for schools, startups, and organizations looking to educate and inform in a fun, digestible way."
+          }
+        />
+        <Service
+          image={""}
+          name={"Experimental Animation"}
+          description={
+            "Conceptual, visually daring pieces for exhibitions, installations, or creators exploring unconventional visual expression."
+          }
+        />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const Team = () => {
           </h2>
         </div>
       </div>
-      <div className="h-[350vh] grid sm:grid-cols-2 gap-28 flex-col border w-full justify-center items-center relative p-5">
+      <div className="h-[350vh] overflow-x-hidden grid sm:grid-cols-2 gap-28 flex-col border w-full justify-center items-center relative p-5">
         <div
           data-aos="fade-right"
           data-aos-anchor-placement="center"
