@@ -26,7 +26,7 @@ const StartProjectForm = ({ setToggle }: Props) => {
   };
 
   return (
-    <div className="max-w-3xl my-auto mx-auto p-6 bg-background rounded shadow-md relative">
+    <div className="w-full max-w-xl my-auto mx-auto p-6 bg-background rounded shadow-md relative">
       <h2 className="text-4xl font-bold tracking-tight mb-6 uppercase">
         Start a Project
       </h2>
