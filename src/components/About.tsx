@@ -2,7 +2,10 @@ import { animation_duration } from "../constants";
 
 const About = () => {
   return (
-    <div className=" h-[150vh] grid grid-cols-2 grid-rows-[30%_40%_30%] sm:grid-rows-[40%_20%_40%]  text-justify relative">
+    <div
+      id="about"
+      className=" h-[150vh] grid grid-cols-2 grid-rows-[30%_40%_30%] sm:grid-rows-[40%_20%_40%]  text-justify relative"
+    >
       <h2
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}

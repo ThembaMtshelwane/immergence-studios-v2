@@ -2,7 +2,10 @@ import { animation_duration } from "../constants";
 
 const Contact = () => {
   return (
-    <div className="drop-shadow-glow  h-screen grid grid-rows-4 p-4 md:grid-cols-2 lg:grid-cols-3">
+    <div
+      id="contact"
+      className="drop-shadow-glow  h-screen grid grid-rows-4 p-4 md:grid-cols-2 lg:grid-cols-3"
+    >
       <h1
         className="text-4xl sm:text-7xl col-span-full self-center justify-self-center md:text-8xl"
         data-aos="fade-up"

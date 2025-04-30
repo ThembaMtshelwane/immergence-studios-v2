@@ -2,7 +2,7 @@ import { animation_duration } from "../constants";
 
 const Team = () => {
   return (
-    <div className="relative py-10 ">
+    <div id="team" className="relative py-10 ">
       <div className="sticky top-0  p-5">
         <div className=" h-screen flex items-center justify-center">
           <h2 className="drop-shadow-glow text-center text-4xl sm:text-6xl md:text-8xl font-extrabold">

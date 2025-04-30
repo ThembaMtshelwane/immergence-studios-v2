@@ -3,7 +3,7 @@ import Service from "./ui/Service";
 
 const Services = () => {
   return (
-    <div className="h-[200vh] flex py-4  drop-shadow-glow">
+    <div id="services" className="h-[200vh] flex py-4  drop-shadow-glow">
       <div className="my-auto">
         <h2
           className="text-6xl text-center p-2 my-10 font-extrabold sm:text-start sm:text-8xl"
