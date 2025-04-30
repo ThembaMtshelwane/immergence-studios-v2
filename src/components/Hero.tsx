@@ -7,7 +7,7 @@ const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className=" h-screen grid grid-rows-[10%_40%_50%] md:grid-rows-[40%_60%] md:grid-cols-2">
-      <div className="flex justify-between items-center border relative sm:flex-row-reverse sm:justify-between md:flex-col">
+      <div className="flex justify-between items-center relative sm:flex-row-reverse sm:justify-between md:flex-col">
         <Navbar />
         <img
           className="md:h-[90%] drop-shadow-glow w-[30%] h-full md:w-full object-cover object-center bg-[#FC2804] "
@@ -16,7 +16,7 @@ const Hero = () => {
         />
         <button
           onClick={() => setMenuOpen(true)}
-          className="size-10 border flex items-center justify-center  p-4 mr-5  bg-[#FC2804] rounded fixed right-0.5 z-50"
+          className="sm:hidden size-10  flex items-center justify-center  p-4 mr-5  bg-[#FC2804] rounded fixed right-0.5 z-50"
         >
           ☰
         </button>

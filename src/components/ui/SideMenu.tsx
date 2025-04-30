@@ -5,7 +5,7 @@ type Props = {
 const SideMenu = ({ setToggle }: Props) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-black/50 z-50 flex">
-      {/* Side Menu */}
+
       <div className="w-64 bg-background h-full shadow-lg p-6 relative">
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl font-bold uppercase">Menu</h2>
@@ -51,7 +51,7 @@ const SideMenu = ({ setToggle }: Props) => {
           </a>
         </nav>
       </div>
-      {/* Click outside to close */}
+
       <div className="flex-1" onClick={() => setToggle(false)} />
     </div>
   );

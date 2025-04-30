@@ -38,7 +38,6 @@ const StartProjectForm = ({ setToggle }: Props) => {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-10">
-        {/* Contact Details */}
         <div>
           <h3 className="text-lg font-semibold text-[#FC2804] mb-1">
             Contact details
@@ -84,7 +83,6 @@ const StartProjectForm = ({ setToggle }: Props) => {
           </div>
         </div>
 
-        {/* Project Information */}
         <div>
           <h3 className="text-lg font-semibold text-[#FC2804] mb-1">
             Project information
@@ -103,7 +101,6 @@ const StartProjectForm = ({ setToggle }: Props) => {
           ></textarea>
         </div>
 
-        {/* Submit Button */}
         <div className="text-right">
           <button
             type="submit"
