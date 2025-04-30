@@ -10,16 +10,19 @@ const Contact = () => {
       >
         IMMEGERGENCE
       </h1>
-      <div className="col-span-full md:col-span-1 lg:row-[3/4]  self-center justify-self-center">
-        <p>Lorem ipsum dolor sit.</p>
-        <p>Lorem ipsum dolor sit.</p>
-        <p>Lorem ipsum dolor sit.</p>
-        <p>Lorem ipsum dolor sit.</p>
+      <div className="col-span-full md:col-span-1 lg:row-[3/4]  self-center justify-self-center sm:text-xl">
+        <p>📍 Address:</p>
+        <p>Immergence Studios</p>
+        <p>112 Loop Street, Cape Town, 8001,</p>
+        <p>LSouth Africa</p>
       </div>
-      <div className="col-span-full md:col-[2/3] lg:col-[3/4] lg:row-[3/4]  self-center justify-self-center">
-        <p>Lorem ipsum dolor sit.</p>
-        <p>Lorem ipsum dolor sit.</p>
-        <p>Lorem ipsum dolor sit.</p>
+      <div className="col-span-full md:col-[2/3] lg:col-[3/4] lg:row-[3/4]  self-center justify-self-center sm:text-xl">
+        <p>hello@immergencestudios.com</p>
+        <p>+27 21 555 1234</p>
+        <div>
+          <p>Immergence Studios</p>
+          <p> @immergence.studios</p>
+        </div>
       </div>
       <div className="relative col-span-full md:row-[3/5] lg:col-[2/3] border">
         <img
