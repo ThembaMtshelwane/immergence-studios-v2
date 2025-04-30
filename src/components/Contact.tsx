@@ -24,8 +24,7 @@ const Contact = () => {
       </h1>
       <div className="col-span-full w-[270px]  md:col-span-1 lg:row-[3/4]  self-center justify-self-center sm:text-xl flex flex-col gap-2">
         <p>📍 Address:</p>
-        <p>Immergence Studios</p>
-        <p>112 Loop Street, Cape Town, 8001,</p>
+        <p>112 Loop Street, Cape Town,</p>
         <p>South Africa</p>
         <button
           onClick={() => setToggle(true)}
