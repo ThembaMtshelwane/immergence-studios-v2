@@ -1,10 +1,15 @@
+import { animation_duration } from "../constants";
 import Service from "./ui/Service";
 
 const Services = () => {
   return (
     <div className="h-[200vh] flex py-4  drop-shadow-glow">
       <div className="my-auto">
-        <h2 className="text-6xl text-center p-2 my-10 font-extrabold sm:text-start sm:text-8xl">
+        <h2
+          className="text-6xl text-center p-2 my-10 font-extrabold sm:text-start sm:text-8xl"
+          data-aos="fade-up"
+          data-aos-duration={animation_duration}
+        >
           SERVICES
         </h2>
         <div className=" flex flex-col gap-4">
