@@ -5,9 +5,12 @@ const Team = () => {
     <div className="relative py-10 ">
       <div className="sticky top-0  p-5">
         <div className=" h-screen flex items-center justify-center">
-          <h2 className="text-yellow-400 text-center text-4xl sm:text-6xl md:text-8xl font-extrabold">
+          <h2 className="text-center text-4xl sm:text-6xl md:text-8xl font-extrabold">
             MEET THE TEAM
           </h2>
+          {/* <h2 className="text-yellow-400 text-center text-4xl sm:text-6xl md:text-8xl font-extrabold">
+            MEET THE TEAM
+          </h2> */}
         </div>
       </div>
       <div className="h-[350vh] overflow-x-hidden grid sm:grid-cols-2 gap-28 flex-col border w-full justify-center items-center relative p-5">
