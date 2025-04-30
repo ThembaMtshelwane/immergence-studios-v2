@@ -29,7 +29,7 @@ const Services = () => {
           }
         />
         <Service
-          image={""}
+          image={"9.mp4"}
           name={"Experimental Animation"}
           description={
             "Conceptual, visually daring pieces for exhibitions, installations, or creators exploring unconventional visual expression."
