@@ -45,7 +45,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="relative col-span-full md:row-[3/5] lg:col-[2/3] border -z-10">
+      <div className="relative col-span-full md:row-[3/5] lg:col-[2/3] -z-10">
         <img
           className=" h-full w-full object-cover object-center bg-[#FC2804]"
           src="logo.svg"

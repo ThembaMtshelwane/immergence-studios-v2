@@ -26,7 +26,7 @@ const StartProjectForm = ({ setToggle }: Props) => {
   };
 
   return (
-    <div className="w-full max-w-xl my-auto mx-auto p-6 bg-background rounded shadow-md relative">
+    <div className="text-white w-full max-w-xl my-auto mx-auto p-6 bg-background rounded shadow-md relative">
       <h2 className="text-4xl font-bold tracking-tight mb-6 uppercase">
         Start a Project
       </h2>
@@ -104,7 +104,7 @@ const StartProjectForm = ({ setToggle }: Props) => {
         <div className="text-right">
           <button
             type="submit"
-            className="bg-[#FC2804] px-6 py-2 rounded font-semibold"
+            className="bg-[#FC2804] px-6 py-2 rounded font-semibold cursor-pointer"
           >
             Submit Enquiry
           </button>
