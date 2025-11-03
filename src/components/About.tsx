@@ -9,7 +9,7 @@ const About = () => {
       <h2
         data-aos="zoom-in-up"
         data-aos-duration={animation_duration}
-        className="text-4xl row-[2/3] col-span-full p-4 md:text-5xl px-10 self-center text-center max-w-[850px] mx-auto border"
+        className="text-4xl row-[2/3] col-span-full p-4 md:text-5xl px-10 self-center text-center max-w-[850px] mx-auto"
       >
         Where raw vision meets high-impact animation. We don’t just animate — we
         disturb the frame and redefine the story
