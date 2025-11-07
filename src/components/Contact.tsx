@@ -10,7 +10,7 @@ const Contact = () => {
       className="drop-shadow-glow  h-screen grid grid-rows-4 p-4 md:grid-cols-2 lg:grid-cols-3 relative gap-12"
     >
       {toggle && (
-        <div className="absolute flex h-full top-0 right-0 w-full z-10 bg-black/70">
+        <div className="fixed flex h-full top-0 right-0 w-full inset-0 bg-black/70 z-[999]">
           <StartProjectForm setToggle={setToggle} />
         </div>
       )}

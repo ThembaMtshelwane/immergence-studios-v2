@@ -6,7 +6,10 @@ import SideMenu from "./ui/SideMenu";
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className=" h-screen grid grid-rows-[10%_40%_50%] md:grid-rows-[40%_60%] md:grid-cols-2">
+    <div
+      id="home"
+      className=" h-screen grid grid-rows-[10%_40%_50%] md:grid-rows-[40%_60%] md:grid-cols-2"
+    >
       <div className="flex justify-between items-center relative sm:flex-row-reverse sm:justify-between md:flex-col">
         <Navbar />
         <img
@@ -16,7 +19,7 @@ const Hero = () => {
         />
         <button
           onClick={() => setMenuOpen(true)}
-          className="sm:hidden size-10  flex items-center justify-center  p-4 mr-5  bg-[#FC2804] rounded fixed right-0.5 z-50"
+          className="sm:hidden size-10  flex items-center justify-center  p-4 mr-5  bg-[#FC2804] rounded fixed right-0.5 "
         >
           ☰
         </button>
